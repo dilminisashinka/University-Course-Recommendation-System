@@ -83,7 +83,7 @@ if signIn:
                st.success("Login successful!")
                st.link_button("Course Registration ➡️","http://localhost:8501/Course_Registration",type="primary")
             # Redirect user to Course Registration page
-            # You can use Streamlit's 'st.experimental_set_query_params()' function for redirection
+            # Streamlit's 'st.experimental_set_query_params()' function can be used for redirection
           else:
             st.error("Invalid username or password. Please try again.")
     else:
