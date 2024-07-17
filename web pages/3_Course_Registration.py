@@ -91,7 +91,7 @@ if conn:
 
 def recommend(student_id, year, semester, students_data, user_to_user_similarity_matrix):
     num_similar_students = 11
-    # Assuming you have user_to_user_similarity_matrix available here
+    # user_to_user_similarity_matrix available here
 
     # Step 1: Identify similar students for a particular student
     similar_students = user_to_user_similarity_matrix.loc[student_id].sort_values(ascending=False)[1:num_similar_students + 1].index
