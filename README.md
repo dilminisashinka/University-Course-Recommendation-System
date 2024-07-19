@@ -48,7 +48,7 @@ username = "root"
 password = ""
 ```
 
-7. **Create and Configure the secrets.toml File**:
+6. **Create and Configure the secrets.toml File**:
 [mysql]
 ```
 host = "localhost"
@@ -58,7 +58,7 @@ user = "root"
 password = "your_password_here"
 ```
  
-8. **Run the Streamlit Application**:
+7. **Run the Streamlit Application**:
 ```
 streamlit run recommender.py
 ```
